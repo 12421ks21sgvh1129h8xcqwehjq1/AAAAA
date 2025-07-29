@@ -37,7 +37,7 @@ end
 function Commands:Output(message)
     print("[BOT]:", message)
 
-    local channel_id = "YOUR_CHANNEL_ID_HERE" -- Replace this
+    local channel_id = "1399867899354681516"
     local payload = {
         content = message
     }
